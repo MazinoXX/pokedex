@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokedex</title>
+    <script src="./app.js" type="text/javascript" defer></script>
+    <link rel="stylesheet" href="./estilo.css">
+    
+</head>
+<body>
+  <form action="" onsubmit="buscar_pokemon(event)">
+    <legend>Busca un pokemon:</legend>
+    <input type="text" id="pokeName" name="pokemon" autocomplete="off">
+  </form>
+    <div class="contenedor-main">
+      <div class="pokedex">
+          <div class="contenedor-screen">
+            <img class="pokePhoto" src="https://www.nintenderos.com/wp-content/uploads/2021/04/pikachu-pokemon.jpg" id="pokeImg" name="imagen-pokemon" class="screen-contenedor" width="150" alt="Imagen de un pokemon">
+          </div>
+          <div class="name-contenedor">
+            <div class="pokeName">Pikachu</div>
+          </div>
+          <div id="estadisticas" class="stats-contenedor">
+            <p>Estadisticas</p>
+            <div class="statsPoke">
+
+            </div>
+
+          </div>
+      </div>
+    </div>
+</body>
+<footer>
+    
+</footer>
+</html>

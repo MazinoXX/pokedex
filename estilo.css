@@ -1,0 +1,130 @@
+:root {
+  --main-bg-color: #ff0000c9;
+  --secondary-bg-color: #f2f2f2;
+  --main-screen-bg-color: #98cb98;
+  --secondary-screen-bg-color: #9e9d9d;
+  --main-buttons-color: #585858;
+  --square-buttons-color: #7ca9f7;
+}
+  
+.red {
+  background-color: #ff0000b8;
+}
+.yellow {
+  background-color: #fecb65;
+}
+.green {
+  background-color: #32cb65;
+}
+.blue {
+  background-color: #3298cb;
+}
+
+.light-blue {
+  background-color: #85bdfe;
+}
+.light-red {
+  background-color: #fe98cb;
+}
+.light-yellow {
+  background-color: #fefecb;
+}
+.light-green {
+  background-color: #98fe00;
+}
+  
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  
+}  
+form{
+  display: flex;
+  align-content: center;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+
+}
+.contenedor-main{
+  display: flex;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+    
+}
+.pokedex{
+  width: 400px;
+  height: 80%;
+  border-radius: 10px;
+  border: 2px #585858 solid;
+  background-color: var(--main-bg-color);
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.contenedor-screen{
+  width: 180px;
+  height: 30%;
+  border-radius: 5px;
+  border: 2px #585858 solid;
+  background-color: var(--secondary-bg-color);
+  position: relative;
+  left: 110px;
+  top: 50px;
+
+}
+.contenedor-screen img{
+  width: 170px;
+  height: 90%;
+  background-size: cover;
+  background-color: #bdae58;
+  position: relative;
+  left: 4.5px;
+  top: 7px;
+}
+.name-contenedor{
+  display: flex;
+  width: 150px;
+  height: 8%;
+  background-color: var(--main-screen-bg-color);
+  position: relative;
+  top: 60px;
+  left: 125px;
+  border-radius: 5px;
+  border: 1px#585858 solid;
+  align-content: center;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.stats-contenedor{
+  display: flex;
+  width: 300px;
+  height: 35%;
+  background-color: var(--secondary-screen-bg-color);
+  position: relative;
+  top: 90px;
+  left: 53px;
+  border-radius: 5px;
+  border: 1px#585858 solid;
+  align-content: center;
+  flex-direction: column;
+  justify-content: center;
+  padding-top: 10px;
+  font-size: 12px;
+}
+.statsPoke{
+  display: grid;
+  max-height:300px;
+  margin-left: 20px;
+}
+
+
